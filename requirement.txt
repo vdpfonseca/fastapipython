@@ -1,0 +1,19 @@
+fastapi>=0.111.0,<1.0.0
+uvicorn[standard]>=0.30.0,<1.0.0
+pyodbc>=5.1.0,<6.0.0
+python-dotenv>=1.0.1,<2.0.0
+
+
+
+python -m pip install fastapi
+python -m pip install uvicorn
+python -m pip install pyodbc
+python -m pip install python-dotenv
+
+
+A partir da pasta raiz do projeto:
+python -m uvicorn main:app --reload
+
+
+
+http://localhost:8000/docs
